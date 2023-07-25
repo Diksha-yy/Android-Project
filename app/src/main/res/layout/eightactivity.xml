@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eightactivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="384dp"
+        android:layout_height="77dp"
+        android:layout_margin="30dp"
+        android:text="Register Login"
+        android:textAlignment="center"
+        android:textColor="#C82020"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Student Name"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Email_id"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:textStyle="bold"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"/>
+
+
+</LinearLayout>

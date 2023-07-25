@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidTutionApp</string>
+    <string name="email_id">Email_id</string>
+    <string name="password">password</string>
+    <string name="linktosite">
+    <a href="https://www.javatpoint.com/what is advance-java">
+        https://www.javapoint.com
+    </a>
+
+    </string>
+
+
+</resources>
